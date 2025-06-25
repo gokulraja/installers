@@ -1,3 +1,6 @@
+See if winget is available then just use winget or else install chocolatey.
+
+
 #Install Chocolatey
 Get-ExecutionPolicy
 Run Get-ExecutionPolicy. If it returns Restricted, then run Set-ExecutionPolicy AllSigned or Set-ExecutionPolicy Bypass -Scope Process.

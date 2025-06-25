@@ -13,13 +13,15 @@ choco install nvm --version 1.2.2 -y
 OR------------- Check if winget is already there
 
 Get winget
+if needed
 Add-AppxPackage -RegisterByFamilyName -MainPackage Microsoft.DesktopAppInstaller_8wekyb3d8bbwe
 
 Read: https://code.adonline.id.au/windows-package-manager-winget-cheat-sheet/#listing-whats-installed
 https://winstall.app/
 
 
-winget install --id=Microsoft.Teams  -e
+#winget install --id=Microsoft.Teams  -e
+
 winget install --id=JetBrains.IntelliJIDEA.Community  -e
 winget install --id=CoreyButler.NVMforWindows  -e
 winget install --id=OpenJS.NodeJS.LTS  -e
